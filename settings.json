@@ -1,0 +1,48 @@
+{
+  "bot-account": {
+    "username": "BOT",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "ip",
+    "port": 25565,
+    "version": "1.12.2"
+  },
+
+  "position": {
+    "enabled": true,
+    "x": 10000,
+    "y": 70,
+    "z": 10000
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "pass"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 600,
+
+      "messages": [
+        "",
+        "",
+        ""
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
